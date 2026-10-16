@@ -123,7 +123,7 @@ Stage 0을 빼고 핵심 81세션과 졸업 시험 1회다. 각 Stage의 마지�
 
 ## Stage 0 · 준비 (한 번만)
 
-- [ ] **0-1 저장소와 환경 (10분)** — 커밋 계정 설정 (완료) · GitHub에 빈 공개 저장소 `study-math-foundations`를 만들어 연결 (README 없이) · uv로 Python 환경 세팅 · 첫 커밋과 push
+- [x] **0-1 저장소와 환경 (10분)** — 커밋 계정 설정 (완료) · GitHub에 빈 공개 저장소 `study-math-foundations`를 만들어 연결 (README 없이) · uv로 Python 환경 세팅 · 첫 커밋과 push
 
 ## Stage 1 · 수학의 언어 — 함수와 확률 첫걸음
 
