@@ -6,9 +6,14 @@ def slope(p1, p2):
 
     x1 == x2이면 세로선이라 함수가 아니므로 ValueError를 낸다.
     """
-    raise NotImplementedError
+    if p1[0] == p2[0]:
+        raise ValueError
+    a = (p1[1] - p2[1]) / (p1[0] - p2[0])
+    return a
 
 
 def line_through(p1, p2):
     """두 점을 지나는 직선 y = ax + b의 (a, b)를 돌려준다."""
-    raise NotImplementedError
+    a = slope(p1, p2)
+    b = p1[1] - a * p1[0]
+    return (a, b)
